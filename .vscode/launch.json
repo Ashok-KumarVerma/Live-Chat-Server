@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Run Server",
+            "request": "launch",
+            "mainClass": "com.chatroom.server.ServerExec",
+            "projectName": "LiveChatServer-master",
+            "args": "8080 localhost root Tigerashok87"
+        },
+        {
+            "type": "java",
+            "name": "Run Client (GUI)",
+            "request": "launch",
+            "mainClass": "com.chatroom.client.ClientExec",
+            "projectName": "LiveChatServer-master",
+            "args": "localhost 8080"
+        },
+        {
+            "type": "java",
+            "name": "Run Client (Console)",
+            "request": "launch",
+            "mainClass": "com.chatroom.client.ClientExec",
+            "projectName": "LiveChatServer-master",
+            "args": "localhost 8080 --console"
+        }
+    ]
+}
